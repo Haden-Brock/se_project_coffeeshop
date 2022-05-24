@@ -1,0 +1,123 @@
+.header {
+    background-color: #ffffff;
+    background-image: url("../images/background_header.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #000000;
+    height: 100vh;
+    min-height: 720px;
+    max-height: 800px;
+    padding-top: 30px;
+    padding-left: 30px;
+    position: relative;
+    box-sizing: border-box;
+    z-index: -2;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    width: 125px;
+    height: 142px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-right: 80px;
+}
+
+.nav__links {
+    list-style: none;
+    display: flex;
+    align-items: start;
+    column-gap: 20px;
+}
+
+.nav__link {
+    transition: color 1s linear;
+    text-decoration: none;
+    color: #000000;
+}
+
+.nav__link:hover {
+    color: #2F80ED;
+}
+
+.header__title {
+    font-family: Noto Serif;
+    Font-style: italic;
+    font-size: 60px;
+    line-height: 72px;
+    color: #2F80ED;
+    margin: 0;
+}
+
+.header__title-div {
+    margin-top: 80px;
+    margin-left: 80px;
+    max-width: 729px;
+}
+
+.header__span-accent {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 72px;
+}
+
+.header__description {
+    font-family: Noto Serif;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 28px;
+    margin-left: 80px;
+    max-width: 683px;
+}
+
+.header__paragraph {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #6f6f6f;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-grow: 1;
+    margin: 0 80px 40px 80px;
+}
+.header__paragraph-heading {
+    margin: 0;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.header__paragraph-address {
+    align-self: flex-end;
+    margin: 0;
+}
+
+.header__list {
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.header__image {
+    width: 646px;
+    height: 568px;
+    position: absolute;
+    top: 124px;
+    right: 5px;
+    z-index: -1;
+}
+
