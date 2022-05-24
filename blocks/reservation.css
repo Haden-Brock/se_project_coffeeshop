@@ -45,6 +45,7 @@
     font-size: 16px;
     line-height: 20px;
     margin-bottom: 8px;
+    border-radius: 4px;
 }
 
 .form__checkbox {
@@ -73,10 +74,18 @@
     margin-bottom: 32px;
     height: 60px;
     width: 315px;
+    border-radius: 4px;
+    opacity: 1;
+    transition: opacity 1s linear;
+}
+
+.form__button:hover {
+    opacity: .7;
 }
 
 .check {
     height: 20px;
     width: 20px;
     margin: 0 12px 0 0; 
+    border-radius: 2px;
 }
