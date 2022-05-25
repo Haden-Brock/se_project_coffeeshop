@@ -31,12 +31,12 @@
 
 .menu__cards {
     display: flex;
-    margin: 0 0 100px; 
+    margin: 0 0 100px;
     flex-direction: column; 
 }
 
 .menu__cards-top {
-    display: flex; 
+    display: flex;
     justify-content: space-between;
     margin-bottom: 100px;
     align-items: flex-start;
