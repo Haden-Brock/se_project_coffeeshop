@@ -46,7 +46,7 @@
     line-height: 30px;
     margin: 28px 0 0 80px;
     max-width: 683px;
-    font-weight: normal; 
+    font-weight: normal;
     font-style: normal;
     /* for the line above, I was told to add font-weight from the brief. I did not include this originally as it is listed as "normal" in the brief. */
     z-index: 1;
