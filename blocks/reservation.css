@@ -20,7 +20,7 @@
 
 .reservation__form {
     max-width: 385;
-    margin: 80px 0 120px; 
+    margin: 80px 0 120px;
 }
 
 .form {
@@ -85,6 +85,6 @@
 .check {
     height: 20px;
     width: 20px;
-    margin: 0 12px 0 0; 
+    margin: 0 12px 0 0;
     border-radius: 2px;
 }

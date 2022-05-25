@@ -45,7 +45,6 @@
 }
 
 .about__circle_animation_blurred {
-    
     animation-name: pulsate;
     animation-duration: 1.3s;
     animation-timing-function: ease-in-out;
