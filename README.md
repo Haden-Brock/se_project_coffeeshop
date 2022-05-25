@@ -10,7 +10,10 @@ This is the second project of the Web Development program at Practicum. It was c
 - Flat BEM
 - A custom form
 - CSS animation and transform
+- Embedded videos
 
 ## Plan on improving the project
 
-Add your ideas here :)
+-Make the page responsive to different screen sizes (phone etc). 
+-Make the nav bar static to the top of the page so that it stays when you scroll. 
+-Modernize the form (text spacing, rounding of input fields). 
