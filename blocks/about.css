@@ -8,7 +8,7 @@
 }
 
 .about__title {
-    font-family: Inter;
+    font-family: 'Inter', Arial, sans-serif;
     font-weight: 500;
     font-size: 44px;
     line-height: 52px;
@@ -26,7 +26,7 @@
 }
 
 .about__paragraph {
-    font-family: Noto serif;
+    font-family: 'Noto Serif', 'Times New Roman', serif;
     font-size: 20px;
     line-height: 30px;
     padding: 0;
@@ -49,7 +49,7 @@
     animation-duration: 1.3s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
-    animation-delay: 0;
+    animation-delay: 0s;
 }
 
 @keyframes pulsate {

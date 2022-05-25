@@ -8,14 +8,6 @@
     <meta name="keywords" content="HTML, CSS, Coffee, Practicum, Project">
     <title>Practicum Coffee Shop</title>
     <link rel="stylesheet" href="./pages/index.css">
-    <link rel="stylesheet" href="./blocks/page.css">
-    <link rel="stylesheet" href="./blocks/menu.css">
-    <link rel="stylesheet" href="./blocks/card.css">
-    <link rel="stylesheet" href="./blocks/recipes.css">
-    <link rel="stylesheet" href="./blocks/reservation.css">
-    <link rel="stylesheet" href="./blocks/about.css">
-    <link rel="stylesheet" href="./blocks/footer.css">
-    <link rel="stylesheet" href="./blocks/header.css">
     <link rel="icon" href="favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -45,18 +37,16 @@
                     </li>
                 </ul>
             </nav>
-            <div class="header__title-div">
-                <h1 class="header__title">
-                    Specialty coffee
-                </h1>
+            <h1 class="header__title">
+                Specialty coffee
                 <span class="header__span-accent">
-                    in the Practicum Library
+                    in&nbsp;the&nbsp;Practicum&nbsp;Library
                 </span>
-            </div>
-            <h2 class="header__description">
+            </h1>
+            <p class="header__description">
                 Welcome to our study zone! We've got the coffee to energize you and
     the cozy vibes to help you get creative. 
-            </h2>
+            </p>
             <img
                 src="./images/inside_coffee_shop.png"
                 alt="Inside the Practicum coffee shop"
@@ -64,7 +54,7 @@
             >
             <div class="header__paragraph">
                 <div class="header__paragraph-hours">
-                    <h5 class="header__paragraph-heading">Hours</h5>
+                    <h2 class="header__paragraph-heading">Hours</h2>
                     <ul class="header__list">
                         <li class="header__list-item">Monday Friday (10:00 19:00)</li>
                         <li class="header__list-item">Saturday Sunday (11:00 18:00)</li>
@@ -77,120 +67,119 @@
         <main class="content">
             <section class="menu" id="menu">
                 <h2 class="menu__title">Menu</h2>
-                <h3 class="menu__subtitle">
+                <p class="menu__subtitle">
                     We brew coffee from locally roasted, Fairtrade certified beans and use
     biodegradable cups. All teas from our collection are $2/cup.
-                </h3>
+                </p>
                 <div class="menu__cards">
-                    <div class="menu__cards-top">
-                        <div class="card filter">
+                        <div class="card">
                             <h3 class="card__title">Filter</h3>
                             <ul class="card__list">
                                 <li class="card__list-item">
                                     Regular (12 oz)
-                                    <p class="card__list-divider"> </p>
+                                    <span class="card__list-divider"> </span>
                                     $1
                                 </li>
                                 <li class="card__list-item">
                                     Large (16 oz)
-                                    <p class="card__list-divider"> </p>
+                                    <span class="card__list-divider"> </span>
                                     $1.25 
                                 </li>
                                 <li class="card__list-item">
                                     XL (20 oz)
-                                    <p class="card__list-divider"> </p>
+                                    <span class="card__list-divider"> </span>
                                     $1.5 
                                 </li>
                                 <li class="card__list-item">
                                     Party-size (24 oz, decaf)
-                                    <p class="card__list-divider"> </p>
+                                    <span class="card__list-divider"> </span>
                                     $1.75
                                 </li>
                                 <li class="card__list-item">
                                     Iced Coffee (16 oz)
-                                    <p class="card__list-divider"> </p>
+                                    <span class="card__list-divider"> </span>
                                     $1.25
                                 </li>
                             </ul>
                         </div>
-                        <div class="card espresso">
+                        <div class="card">
                             <h3 class="card__title">Espresso</h3>
                             <ul class="card__list">
                                 <li class="card__list-item">
                                     Macchiato
-                                    <p class="card__list-divider"></p>
+                                    <span class="card__list-divider"></span>
                                     $2.25
                                 </li>
                                 <li class="card__list-item">
                                     Cortado
-                                    <p class="card__list-divider"></p>
+                                    <span class="card__list-divider"></span>
                                     $2.5
                                 </li>
                                 <li class="card__list-item">
                                     Mocha
-                                    <p class="card__list-divider"></p>
+                                    <span class="card__list-divider"></span>
                                     $3
                                 </li>
                                 <li class="card__list-item">
                                     Sunrise in the Bay Area (decaf)
-                                    <p class="card__list-divider"></p>
+                                    <span class="card__list-divider"></span>
                                     $10
                                 </li>
                             </ul>
                         </div>
-                    </div>
-                    <div class="menu__cards-bottom">
                         <div class="card">
                             <h3 class="card__title">Baked Goods</h3>
                             <ul class="card__list">
                                 <li class="card__list-item">
                                     Almond Croissant
-                                    <p class="card__list-divider"></p>
+                                    <span class="card__list-divider"></span>
                                     $2
                                 </li>
                                 <li class="card__list-item">
                                     Banana Bread
-                                    <p class="card__list-divider"></p>
+                                    <span class="card__list-divider"></span>
                                     $1.75
                                 </li>
                                 <li class="card__list-item">
                                     Key Lime Pie
-                                    <p class="card__list-divider"></p>
+                                    <span class="card__list-divider"></span>
                                     $3
                                 </li>
                                 <li class="card__list-item">
                                     Blue Velvet Cake
-                                    <p class="card__list-divider"></p>
+                                    <span class="card__list-divider"></span>
                                     $3.75
                                 </li>
                                 <li class="card__list-item">
                                     Web Cookie
-                                    <p class="card__list-divider"></p>
+                                    <span class="card__list-divider"></span>
                                     $2
                                 </li>
                                 <li class="card__list-item">
                                     Fresh Bug’uette
-                                    <p class="card__list-divider"></p>
+                                    <span class="card__list-divider"></span>
                                     $0.25
                                 </li>
                             </ul>
                         </div>
-                    </div>
                 </div>
             </section>
             <section class="recipes" id="recipes">
                 <h2 class="recipes__title">Recipes</h2>
-                <h3 class="recipes__subtitle">
+                <p class="recipes__subtitle">
                     Check out some recipes we've collected for
     your home-brewing convenience:
-                </h3>
+                </p>
                 <div class="recipes__videos">    
                     <div class="recipes__video">
                         <iframe 
-                            class="recipes__iframe" 
-                            src="https://www.youtube.com/watch?v=j6VlT_jUVPc"
-                            allowfullscreen
-                        >
+                            class="recipes__iframe"
+                            width="480" 
+                            height="273" 
+                            src="https://www.youtube.com/embed/j6VlT_jUVPc" 
+                            title="Aeropress recipe" 
+                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
                         </iframe>
                         <div class="recipes__video-captions">
                             <p class="recipes__video-caption">Aeropress recipe</p>
@@ -200,9 +189,12 @@
                     <div class="recipes__video">
                         <iframe 
                             class="recipes__iframe"
-                            src="https://www.youtube.com/watch?v=st571DYYTR8"
-                            allowfullscreen
-                        >
+                            width="480" 
+                            height="273" 
+                            src="https://www.youtube.com/embed/st571DYYTR8" 
+                            title="French press recipe" 
+                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
                         </iframe>
                         <div class="recipes__video-captions">
                             <p class="recipes__video-caption">French press recipe</p>
@@ -215,23 +207,28 @@
                 <h2 class="reservation__title">Book a table</h2>
                 <form class="reservation__form form">
                     <fieldset class="form__fieldset">
-                        <label class="form__label" for="name">Name *</label>
-                        <input class="form__input" id="name" type="text" required placeholder="Name Surname">
-
-                        <label class="form__label" for="guests">Number of guests *</label>
-                        <input class="form__input" id="guests" type="number" min="1" max="8" required placeholder="1-8">
-
-                        <label class="form__label" for="date-time">Date & time *</label>
-                        <input class="form__input" id="date-time" type="datetime-local" required>
-
-                        <label class="form__label" for="email">Your email *</label>
-                        <input class="form__input" id="email" type="email" required placeholder="email@email.com">
+                        <div class="form__field">
+                            <label class="form__label" for="name">Name *</label>
+                            <input class="form__input" id="name" type="text" required placeholder="Name Surname">
+                        </div>
+                        <div class="form__field">
+                            <label class="form__label" for="guests">Number of guests *</label>
+                            <input class="form__input" id="guests" type="number" min="1" max="8" required placeholder="1-8">
+                        </div>
+                        <div class="form__field">
+                            <label class="form__label" for="date-time">Date & time *</label>
+                            <input class="form__input" id="date-time" type="datetime-local" required>
+                        </div>
+                        <div class="form__field">
+                            <label class="form__label" for="email">Your email *</label>
+                            <input class="form__input" id="email" type="email" required placeholder="email@email.com">
+                        </div>
                     </fieldset>
-                    <button class="form__button" type="submit">Book a table</button>
-                    <div class="form__checkbox">    
-                        <input class="form__checkbox check" type="checkbox" id="terms">
-                        <label class="form__label" for="terms"> I agree with the terms of use</label>
-                    </div> 
+                    <button class="form__button" type="submit">Book a table</button> 
+                        <label class="form__label" for="terms"> 
+                            <input class="form__checkbox" type="checkbox" id="terms">
+                            I agree with the terms of use
+                        </label>
                 </form>
             </section>
             <section class="about" id="contacts">
