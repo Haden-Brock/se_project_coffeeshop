@@ -12,7 +12,6 @@
     padding-left: 30px;
     position: relative;
     box-sizing: border-box;
-    z-index: -2;
     display: flex;
     flex-direction: column;
 }
@@ -93,6 +92,7 @@
     flex-grow: 1;
     margin: 0 80px 40px 80px;
 }
+
 .header__paragraph-heading {
     margin: 0;
     font-weight: 500;
@@ -118,6 +118,5 @@
     position: absolute;
     top: 124px;
     right: 5px;
-    z-index: -1;
 }
 

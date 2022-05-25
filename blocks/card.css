@@ -5,7 +5,6 @@
     justify-content: flex-end;
     max-width: 600px;
     min-width: 500px;
-    
 }
 
 .card__title {
@@ -36,7 +35,6 @@
 .card__list-divider {
     border-bottom: solid 1px;
     flex-grow: 1;
-
 }
 
 .filter {

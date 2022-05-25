@@ -8,7 +8,6 @@
     <meta name="keywords" content="HTML, CSS, Coffee, Practicum, Project">
     <title>Practicum Coffee Shop</title>
     <link rel="stylesheet" href="./pages/index.css">
-    <link rel="stylesheet" href="./blocks/header.css">
     <link rel="stylesheet" href="./blocks/page.css">
     <link rel="stylesheet" href="./blocks/menu.css">
     <link rel="stylesheet" href="./blocks/card.css">
@@ -16,6 +15,7 @@
     <link rel="stylesheet" href="./blocks/reservation.css">
     <link rel="stylesheet" href="./blocks/about.css">
     <link rel="stylesheet" href="./blocks/footer.css">
+    <link rel="stylesheet" href="./blocks/header.css">
     <link rel="icon" type="image" href="favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -41,7 +41,7 @@
                         <a class="nav__link" href="#booking">Book a table</a>
                     </li>
                     <li>
-                        <a class="nav__link" href="#Contacts">Contacts</a>
+                        <a class="nav__link" href="#contacts">Contacts</a>
                     </li>
                 </ul>
             </nav>
@@ -75,7 +75,7 @@
 
         </header>
         <main class="content">
-            <section class="menu">
+            <section class="menu" id="menu">
                 <h1 class="menu__title">Menu</h1>
                 <h2 class="menu__subtitle">
                     We brew coffee from locally roasted, Fairtrade certified beans and use
@@ -178,7 +178,7 @@
                     </div>
                 </div>
             </section>
-            <section class="recipes">
+            <section class="recipes" id="recipes">
                 <h1 class="recipes__title">Recipes</h1>
                 <h2 class="recipes__subtitle">
                     Check out some recipes we've collected for
@@ -215,7 +215,7 @@
                     </div>
                 </div>
             </section>
-            <section class="reservation">
+            <section class="reservation" id="booking">
                 <h1 class="reservation__title">Book a table</h1>
                 <form class="reservation__form form">
                     <fieldset class="form__fieldset">
@@ -238,7 +238,7 @@
                     </div> 
                 </form>
             </section>
-            <section class="about">
+            <section class="about" id="contacts">
                 <h1 class="about__title">About the coffee shop</h1>
                 <div class="about__content">
                     <p class="about__paragraph">Our coffee shop is located in the Practicum Library's hall. It features
