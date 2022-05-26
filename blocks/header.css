@@ -17,13 +17,12 @@
 }
 
 .header__title {
-    font-family: 'Noto Serif', 'Times New Roman', serif;
-    font-style: italic;
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
     font-size: 60px;
     line-height: 72px;
-    color: #2F80ED;
     margin: 0;
-    font-weight: normal;
     margin-top: 80px;
     margin-left: 80px;
     max-width: 729px;
@@ -31,12 +30,12 @@
 }
 
 .header__span-accent {
-    font-family: 'Inter', Arial, sans-serif;
-    font-weight: 500;
+    font-family: 'Noto Serif', 'Times New Roman', serif;
+    font-weight: normal;
     font-size: 60px;
-    font-style: normal;
+    font-style: italic;
     line-height: 72px;
-    color: #000;
+    color: #2F80ED;
     z-index: 1;
 }
 
